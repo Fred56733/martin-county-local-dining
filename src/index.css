@@ -2,6 +2,7 @@
 body {
   font-family: 'Arial', sans-serif;
   background: linear-gradient(to bottom, #fdf5e6, #add8e6); /* Tan to light blue gradient */
+  /* background-image: url(''); /* Subtle beach background */
   color: #333;
   margin: 0;
   padding: 0;
@@ -26,7 +27,6 @@ header {
   border-radius: 12px;
   margin-bottom: 2rem;
   color: #fff;
-  background-image: url('https://www.transparenttextures.com/patterns/shell.png'); /* Subtle shell background */
   background-repeat: repeat;
   background-size: cover;
 }
