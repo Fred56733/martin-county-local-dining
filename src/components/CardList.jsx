@@ -8,6 +8,7 @@ const CardList = () => {
             name: "Palm & Ivy",
             cuisine: "American",
             price: "$50-100",
+            location: "Hobe Sound",
             description: "Palm & Ivy Kitchen and Cocktails offers a fresh take on American cuisine. Our chef-inspired dishes, crafted from the freshest locally-sourced ingredients, celebrate both innovation and tradition, catering to adventurous palates and lovers of classic comfort food.",
             link: "https://palmandivyrestaurant.com/"
         },
@@ -16,6 +17,7 @@ const CardList = () => {
             name: "Fredgie's World Famous Hot Dogs",
             cuisine: "American, Fast Food",
             price: "$5-25",
+            location: "Downtown Jensen",
             description: "The best Sabrett Hot Dogs, Hamburgers and Italian Sausage with peppers and onions in town, check out the Philly Cheese Steak, Chicken Sandwiches, Onion Rings and Chili Cheese Fries also. Best view of the Indian River, under shade trees. Great food, great crew and the best and most loyal customers.",
             link: "https://www.fredgiesworldfamoushotdogs.com/"
         },
@@ -24,6 +26,7 @@ const CardList = () => {
             name: "Noodle World",
             cuisine: "Thai, Sushi",
             price: "$15-30",
+            location: "Downtown Stuart",
             description: "",
             link: "https://noodleworldatstuart.com/"
         },
@@ -32,6 +35,7 @@ const CardList = () => {
             name: "Shrimpers",
             cuisine: "American, Bar, Seafood",
             price: "$20-40",
+            location: "Port Salerno",
             description: "",
             link: "https://shrimpersgrill.com/"
         },
@@ -40,6 +44,7 @@ const CardList = () => {
             name: "Dolphin Bar",
             cuisine: "American, Seafood",
             price: "$20-40",
+            location: "Jensen Beach",
             description: "",
             link: "https://dolphinbar.com/reservations/"
         },
@@ -48,6 +53,7 @@ const CardList = () => {
             name: "Waterfront",
             cuisine: "New American",
             price: "$30-60",
+            location: "Downtown Stuart",
             description: "",
             link: "https://thewaterfrontstuart.com/"
         },
@@ -56,6 +62,7 @@ const CardList = () => {
             name: "District",
             cuisine: "New American",
             price: "$30-50",
+            location: "Port Salerno",
             description: "",
             link: "https://www.districttableandbar.com/"
         },
@@ -64,6 +71,7 @@ const CardList = () => {
             name: "Two Georges",
             cuisine: "American, Seafood",
             price: "$20-40",
+            location: "Port Salerno",
             description: "",
             link: "https://www.twogeorgesrestaurant.com/port-salerno"
         },
@@ -72,6 +80,7 @@ const CardList = () => {
             name: "Berry Fresh",
             cuisine: "Cafe",
             price: "$15-30",
+            location: "Stuart",
             description: "",
             link: "https://www.berryfresh.cafe/?utm_source=google&utm_medium=local&utm_campaign=gmb"
         },
@@ -80,6 +89,7 @@ const CardList = () => {
             name: "Black Marlin",
             cuisine: "American, Seafood",
             price: "$30-50",
+            location: "Downtown Stuart",
             description: "",
             link: "https://theblackmarlin.net/"
         },
@@ -88,6 +98,7 @@ const CardList = () => {
             name: "Sailors Return",
             cuisine: "Seafood",
             price: "$40-60",
+            location: "Downtown Stuart",
             description: "",
             link: "https://thesailorsreturn.com/"
         },
@@ -96,6 +107,7 @@ const CardList = () => {
             name: "Spritz",
             cuisine: "Americans, Bar",
             price: "20-50",
+            location: "Downtown Stuart",
             description: "",
             link: "https://www.spritzcitybistro.com/"
         },
@@ -110,6 +122,7 @@ const CardList = () => {
                     name={restaurant.name}
                     cuisine={restaurant.cuisine}
                     price={restaurant.price}
+                    location={restaurant.location}
                     description={restaurant.description}
                     link={restaurant.link}
                 />
