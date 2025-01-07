@@ -21,14 +21,16 @@ body {
 
 /* Header Styles */
 header {
+  position: relative; /* Allows absolute positioning for the logo */
   background-color: #add8e6; /* Light blue matching gradient */
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
   color: #fff;
-  background-image: url(''); /* Subtle shell background */
-  background-repeat: repeat;
-  background-size: cover;
+  /* background-image: url(''); /* Subtle shell background */
+  /* background-repeat: repeat; */
+  /* background-size: cover; 
+  text-align: center; /* Center the text */
 }
 
 header h1 {
@@ -43,6 +45,14 @@ header p {
   margin: 0.5rem 0 0;
   color: #fff; /* White text */
   text-shadow: 1px 1px 2px #000; /* Thin black outline for readability */
+}
+
+.header-logo {
+  position: absolute; /* Positions logo relative to the header */
+  top: 10px; /* Space from the top */
+  left: 10px; /* Space from the left */
+  height: 60px; /* Adjust logo size */
+  z-index: 1; /* Ensure the logo is on top */
 }
 
 /* Card Styles */
