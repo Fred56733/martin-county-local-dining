@@ -109,6 +109,7 @@ const CardList = () => {
                     image={restaurant.image}
                     name={restaurant.name}
                     cuisine={restaurant.cuisine}
+                    price={restaurant.price}
                     description={restaurant.description}
                     link={restaurant.link}
                 />
