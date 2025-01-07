@@ -6,7 +6,7 @@ const App = () => {
         <div className="App">
             <header className="header">
                 <div className="header-banner">
-                    <h1>Martin County's Hot Spots</h1>
+                    <h1>Martin County Dining Hot Spots</h1>
                     <p>Martin County local tested and approved</p>
                 </div>
             </header>
