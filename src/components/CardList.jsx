@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import "./Card.css";
 
 const CardList = () => {
     const restaurants = [
@@ -59,7 +60,7 @@ const CardList = () => {
         },
         {
             image: "",
-            name: "District",
+            name: "The District",
             cuisine: "New American",
             price: "$30-50",
             location: "Port Salerno",
@@ -95,12 +96,12 @@ const CardList = () => {
         },
         {
             image: "",
-            name: "Sailors Return",
+            name: "Hudsons on the River",
             cuisine: "Seafood",
-            price: "$40-60",
+            price: "$30-55",
             location: "Downtown Stuart",
             description: "",
-            link: "https://thesailorsreturn.com/"
+            link: "https://www.hudsonontheriver.com/"
         },
         {
             image: "",
@@ -110,6 +111,24 @@ const CardList = () => {
             location: "Downtown Stuart",
             description: "",
             link: "https://www.spritzcitybistro.com/"
+        },
+        {
+            image: "",
+            name: "Tijuana Flats",
+            cuisine: "Tex-Mex",
+            price: "10-20",
+            location: "Stuart",
+            description: "",
+            link: "https://www.tijuanaflats.com/locations/stuart"
+        },
+        {
+            image: "",
+            name: "Fujiyama",
+            cuisine: "Japanese",
+            price: "20-30",
+            location: "Stuart",
+            description: "",
+            link: "https://www.tijuanaflats.com/locations/stuart"
         },
     ];
     

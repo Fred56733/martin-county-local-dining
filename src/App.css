@@ -1,14 +1,14 @@
 /* Adjusted Header Styles */
 header {
   display: flex;
-  align-items: center; /* Vertically align content */
-  justify-content: flex-start; /* Separate logo and text */
-  background-color: #add8e6; /* Light blue */
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #add8e6;
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
-  gap: 20px; /* Space between logo and text */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  gap: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header-logo-box {
@@ -18,69 +18,26 @@ header {
 }
 
 .header-logo {
-  height: 150px; /* Increase the size as needed */
-  width: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional rounded edges */
+  height: 150px;
+  width: auto;
+  border-radius: 8px;
 }
 
 .header-banner {
-  flex: 1; /* Take remaining horizontal space */
-  text-align: left; /* Align text to the left */
+  flex: 1;
+  text-align: left;
 }
 
 .header-banner h1 {
   font-size: 2.5rem;
   margin: 0;
-  color: #fff; /* White text */
-  text-shadow: 1px 1px 2px #000; /* Thin black outline */
-  word-wrap: break-word; /* Ensure text wraps nicely */
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .header-banner p {
   font-size: 1.2rem;
   margin: 5px 0 0;
-  color: #fff; /* White text */
-  text-shadow: 1px 1px 2px #000; /* Thin black outline */
-}
-
-/* Card Styles */
-.card-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.card {
-  background-color: #fdf5e6; /* Sandy tan */
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px; /* Fixed width for consistent card sizes */
-  padding: 16px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.card-image {
-  width: 100%;
-  height: 200px; /* Fixed height for uniformity */
-  object-fit: cover; /* Ensure images scale nicely */
-  border-radius: 8px;
-  margin-bottom: 16px;
-}
-
-.card h3 {
-  font-size: 1.5rem;
-  margin: 0.5rem 0;
-  color: #4682b4; /* Steel blue for card titles */
-}
-
-.card p {
-  margin: 8px 0;
-  color: #555;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
 }

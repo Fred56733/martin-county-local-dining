@@ -1,0 +1,43 @@
+/* Card Styles */
+.card-list {
+    display: grid; /* Use grid layout for cleaner alignment */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust cards per row */
+    gap: 1.5rem;
+    max-width: 1200px; /* Align with the header width */
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .card {
+    background-color: #fdf5e6; /* Sandy tan */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure images scale nicely */
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #4682b4; /* Steel blue for card titles */
+  }
+  
+  .card p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
