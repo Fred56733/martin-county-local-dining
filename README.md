@@ -21,14 +21,14 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] Displays information like img, name, cuisine, price, location, and summary
+* [x] Added favicon and updated title
+* [x] Added over 10 events or resources
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+A video showing the fully completed webpage:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [Kap](https://getkap.co/) for macOS
+![Project 1 Demo](https://i.imgur.com/Q5wSHlv.gif)
 
 ## Notes
 
