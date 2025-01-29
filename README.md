@@ -1,4 +1,4 @@
-# Web Development Project 1 - *martin-county-local-dining*
+# Web Development Project 1 - *Martin County Local Dining*
 
 Submitted by: **Frederick DeBiase**
 
