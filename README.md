@@ -1,6 +1,6 @@
 # Web Development Project 1 - *Martin County Local Dining*
 
-Submitted by: **Frederick DeBiase**
+Created by: **Frederick DeBiase**
 
 This web app: **This app is for Martin County locals or visitors looking for good resturants, recomended by multiple locals who have lived here all their lifes.**
 
